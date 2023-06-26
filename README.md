@@ -1,1 +1,1 @@
-Readme for 0x00. ES6 Basics
+Readme for alx-backend-javascript
