@@ -5,8 +5,13 @@ export default function initializeRooms() {
   const arr = [];
 
   const class19 = new ClassRoom(19);
-  const class20 = new ClassRoom(20);
-  const class34 = new ClassRoom(34);
+  arr.push(class19);
 
-  return arr[class19, class20, class34];
+  const class20 = new ClassRoom(20);
+  arr.push(class20);
+
+  const class34 = new ClassRoom(34);
+  arr.push(class34);
+
+  return arr;
 }
